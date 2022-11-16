@@ -2,10 +2,10 @@ package datahcsplandefaults
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcs-go/hcs/datahcsplandefaults/internal"
+	"github.com/cdktf/cdktf-provider-hcs-go/hcs/v2/datahcsplandefaults/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -437,6 +437,44 @@ func DataHcsPlanDefaults_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-hcs.dataHcsPlanDefaults.DataHcsPlanDefaults",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataHcsPlanDefaults_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataHcsPlanDefaults_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hcs.dataHcsPlanDefaults.DataHcsPlanDefaults",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataHcsPlanDefaults_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataHcsPlanDefaults_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hcs.dataHcsPlanDefaults.DataHcsPlanDefaults",
+		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
 	)

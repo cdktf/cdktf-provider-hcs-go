@@ -2,10 +2,10 @@ package datahcscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcs-go/hcs/datahcscluster/internal"
+	"github.com/cdktf/cdktf-provider-hcs-go/hcs/v2/datahcscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -804,6 +804,44 @@ func DataHcsCluster_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-hcs.dataHcsCluster.DataHcsCluster",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataHcsCluster_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataHcsCluster_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hcs.dataHcsCluster.DataHcsCluster",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataHcsCluster_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataHcsCluster_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hcs.dataHcsCluster.DataHcsCluster",
+		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
 	)

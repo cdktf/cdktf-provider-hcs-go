@@ -2,10 +2,10 @@ package clusterroottoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcs-go/hcs/clusterroottoken/internal"
+	"github.com/cdktf/cdktf-provider-hcs-go/hcs/v2/clusterroottoken/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -544,6 +544,44 @@ func ClusterRootToken_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-hcs.clusterRootToken.ClusterRootToken",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func ClusterRootToken_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateClusterRootToken_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hcs.clusterRootToken.ClusterRootToken",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func ClusterRootToken_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateClusterRootToken_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hcs.clusterRootToken.ClusterRootToken",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

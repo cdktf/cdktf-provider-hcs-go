@@ -1,5 +1,4 @@
 //go:build !no_runtime_type_checking
-// +build !no_runtime_type_checking
 
 package datahcsagentkubernetessecret
 
@@ -124,6 +123,22 @@ func (d *jsiiProxy_DataHcsAgentKubernetesSecret) validatePutTimeoutsParameters(v
 }
 
 func validateDataHcsAgentKubernetesSecret_IsConstructParameters(x interface{}) error {
+	if x == nil {
+		return fmt.Errorf("parameter x is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateDataHcsAgentKubernetesSecret_IsTerraformDataSourceParameters(x interface{}) error {
+	if x == nil {
+		return fmt.Errorf("parameter x is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateDataHcsAgentKubernetesSecret_IsTerraformElementParameters(x interface{}) error {
 	if x == nil {
 		return fmt.Errorf("parameter x is required, but nil was provided")
 	}

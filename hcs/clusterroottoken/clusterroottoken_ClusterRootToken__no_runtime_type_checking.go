@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package clusterroottoken
 
@@ -58,6 +57,14 @@ func (c *jsiiProxy_ClusterRootToken) validatePutTimeoutsParameters(value *Cluste
 }
 
 func validateClusterRootToken_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateClusterRootToken_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateClusterRootToken_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

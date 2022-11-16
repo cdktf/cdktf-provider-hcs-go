@@ -2,10 +2,10 @@ package datahcsagentkubernetessecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcs-go/hcs/datahcsagentkubernetessecret/internal"
+	"github.com/cdktf/cdktf-provider-hcs-go/hcs/v2/datahcsagentkubernetessecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,6 +472,44 @@ func DataHcsAgentKubernetesSecret_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-hcs.dataHcsAgentKubernetesSecret.DataHcsAgentKubernetesSecret",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataHcsAgentKubernetesSecret_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataHcsAgentKubernetesSecret_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hcs.dataHcsAgentKubernetesSecret.DataHcsAgentKubernetesSecret",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataHcsAgentKubernetesSecret_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataHcsAgentKubernetesSecret_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hcs.dataHcsAgentKubernetesSecret.DataHcsAgentKubernetesSecret",
+		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
 	)

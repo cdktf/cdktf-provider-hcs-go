@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package snapshot
 
@@ -58,6 +57,14 @@ func (s *jsiiProxy_Snapshot) validatePutTimeoutsParameters(value *SnapshotTimeou
 }
 
 func validateSnapshot_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateSnapshot_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateSnapshot_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

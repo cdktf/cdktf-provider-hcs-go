@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package datahcscluster
 
@@ -58,6 +57,14 @@ func (d *jsiiProxy_DataHcsCluster) validatePutTimeoutsParameters(value *DataHcsC
 }
 
 func validateDataHcsCluster_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataHcsCluster_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataHcsCluster_IsTerraformElementParameters(x interface{}) error {
 	return nil
 }
 

@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package datahcsconsulversions
 
@@ -58,6 +57,14 @@ func (d *jsiiProxy_DataHcsConsulVersions) validatePutTimeoutsParameters(value *D
 }
 
 func validateDataHcsConsulVersions_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataHcsConsulVersions_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataHcsConsulVersions_IsTerraformElementParameters(x interface{}) error {
 	return nil
 }
 

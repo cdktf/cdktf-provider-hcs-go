@@ -2,9 +2,9 @@ package clusterroottoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/v2/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcs-go/hcs/clusterroottoken/internal"
+	"github.com/cdktf/cdktf-provider-hcs-go/hcs/v2/clusterroottoken/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 

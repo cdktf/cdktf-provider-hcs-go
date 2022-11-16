@@ -1,5 +1,4 @@
 //go:build !no_runtime_type_checking
-// +build !no_runtime_type_checking
 
 package datahcsfederationtoken
 
@@ -124,6 +123,22 @@ func (d *jsiiProxy_DataHcsFederationToken) validatePutTimeoutsParameters(value *
 }
 
 func validateDataHcsFederationToken_IsConstructParameters(x interface{}) error {
+	if x == nil {
+		return fmt.Errorf("parameter x is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateDataHcsFederationToken_IsTerraformDataSourceParameters(x interface{}) error {
+	if x == nil {
+		return fmt.Errorf("parameter x is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateDataHcsFederationToken_IsTerraformElementParameters(x interface{}) error {
 	if x == nil {
 		return fmt.Errorf("parameter x is required, but nil was provided")
 	}

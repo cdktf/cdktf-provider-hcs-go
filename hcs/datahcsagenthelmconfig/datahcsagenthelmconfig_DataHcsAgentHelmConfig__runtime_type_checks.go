@@ -1,5 +1,4 @@
 //go:build !no_runtime_type_checking
-// +build !no_runtime_type_checking
 
 package datahcsagenthelmconfig
 
@@ -124,6 +123,22 @@ func (d *jsiiProxy_DataHcsAgentHelmConfig) validatePutTimeoutsParameters(value *
 }
 
 func validateDataHcsAgentHelmConfig_IsConstructParameters(x interface{}) error {
+	if x == nil {
+		return fmt.Errorf("parameter x is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateDataHcsAgentHelmConfig_IsTerraformDataSourceParameters(x interface{}) error {
+	if x == nil {
+		return fmt.Errorf("parameter x is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateDataHcsAgentHelmConfig_IsTerraformElementParameters(x interface{}) error {
 	if x == nil {
 		return fmt.Errorf("parameter x is required, but nil was provided")
 	}
