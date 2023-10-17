@@ -7,6 +7,10 @@ package clusterroottoken
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (c *jsiiProxy_ClusterRootToken) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (c *jsiiProxy_ClusterRootToken) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,7 +51,15 @@ func (c *jsiiProxy_ClusterRootToken) validateGetStringMapAttributeParameters(ter
 	return nil
 }
 
+func (c *jsiiProxy_ClusterRootToken) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (c *jsiiProxy_ClusterRootToken) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ClusterRootToken) validateMoveToParameters(moveTarget *string, index interface{}) error {
 	return nil
 }
 
@@ -56,6 +68,10 @@ func (c *jsiiProxy_ClusterRootToken) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (c *jsiiProxy_ClusterRootToken) validatePutTimeoutsParameters(value *ClusterRootTokenTimeouts) error {
+	return nil
+}
+
+func validateClusterRootToken_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 

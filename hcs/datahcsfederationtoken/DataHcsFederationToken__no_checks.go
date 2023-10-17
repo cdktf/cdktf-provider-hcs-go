@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataHcsFederationToken) validatePutTimeoutsParameters(value *
 	return nil
 }
 
+func validateDataHcsFederationToken_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateDataHcsFederationToken_IsConstructParameters(x interface{}) error {
 	return nil
 }

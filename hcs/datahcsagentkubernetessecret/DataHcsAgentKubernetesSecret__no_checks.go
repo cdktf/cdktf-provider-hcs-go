@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataHcsAgentKubernetesSecret) validatePutTimeoutsParameters(v
 	return nil
 }
 
+func validateDataHcsAgentKubernetesSecret_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateDataHcsAgentKubernetesSecret_IsConstructParameters(x interface{}) error {
 	return nil
 }
