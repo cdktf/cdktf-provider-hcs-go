@@ -5,9 +5,9 @@ package datahcsagenthelmconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/v7/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hcs-go/hcs/v8/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcs-go/hcs/v7/datahcsagenthelmconfig/internal"
+	"github.com/cdktf/cdktf-provider-hcs-go/hcs/v8/datahcsagenthelmconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
